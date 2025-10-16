@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.header{
+    background-color: darkgray;
+    color: indigo;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.menu{ 
+    position: sticky;
+    top: 0;
+    background-color: darkorange;
+    padding: 10px;
+    z-index: 100;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.menu *{ 
+    display: inline-block;
+    color: aliceblue;
+    align-items: center;
+}
+
+.seccion_principal{
+    position: relative;
+
+    font-size: 1.3rem;
+    text-align: justify;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 75px;
+    padding-right: 300px;
+}
+
+.seccion_principal section{
+    padding-top: 50px;
+}
+
+.seccion_principal h2{
+    text-decoration:underline;
+}
+
+.seccion_principal h3{
+    font-style: italic;
+}
+
+.barra_lateral {
+    position: absolute;       /* Posición absoluta respecto a .seccion_principal */
+    top: 0;
+    bottom: 0;                   /* Arranca desde el inicio de la sección */
+    right: 0;                 /* Pegada al lado derecho */
+    width: 250px;             /* Tamaño fijo */
+    background-color: aquamarine; /* Fondo distinto */
+    padding: 20px;
+    box-sizing: border-box;   /* Padding no aumenta el ancho */
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    opacity: 0.80;
+    color: white;
+    padding: 15px;
+    z-index: 1000;
+}
