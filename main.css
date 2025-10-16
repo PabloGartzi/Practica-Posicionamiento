@@ -16,7 +16,7 @@
 }
 
 .menu{ 
-    position: sticky;
+    position: sticky; /* POSICION STICKY */
     top: 0;
     background-color: darkorange;
     padding: 10px;
@@ -33,7 +33,7 @@
 }
 
 .seccion_principal{
-    position: relative;
+    position: relative; /* POSICION RELATIVA */
     font-size: 1.3rem;
     text-align: justify;
     margin: auto;
@@ -56,18 +56,17 @@
 }
 
 .barra_lateral {
-    position: absolute;
+    position: absolute; /* POSICION ABSOLUTE, RESPECTO A LA SECCION PRINCIPAL */
     top: 0;
     bottom: 0;
     right: 0;
     width: 250px;
     background-color: aquamarine;
     padding: 20px;
-    box-sizing: border-box;
 }
 
 .footer{
-    position: fixed;
+    position: fixed; /* POSICION FIJA (SE DESPLAZA CON LA PANTALLA)*/
     bottom: 0;
     left: 0;
     width: 100%;
